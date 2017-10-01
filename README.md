@@ -1,4 +1,5 @@
 # PolygonFury
+[![Build Status](https://travis-ci.org/matgou/PolygonFury.svg?branch=master)](https://travis-ci.org/matgou/PolygonFury)
 
 This is a simple desktop-game using SDL library
 
