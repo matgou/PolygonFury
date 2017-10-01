@@ -17,9 +17,10 @@ wget https://downloads.sourceforge.net/project/sdl-draw/SDL_draw/1.2.13/SDL_draw
 tar xvf SDL_draw-1.2.13.tar.gz 
 cd SDL_draw-1.2.13
 ./configure && make
-cp src/.libs/SDL_draw.a ../lib/
+cp src/.libs/libSDL_draw.a ../lib/
 cd ..
 make
+
 ```
 
 # Run
