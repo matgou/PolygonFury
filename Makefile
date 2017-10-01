@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-W -Wall -I./include -I/usr/include/SDL
-LFLAGS=-I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -L/usr/lib -lSDL lib/libSDL_draw.a -lSDL_ttf
+LFLAGS=-I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT -L/usr/lib -lm -lSDL lib/libSDL_draw.a -lSDL_ttf
 
 EXEC=bin/PolygonFury
 SRC= $(wildcard *.c)
